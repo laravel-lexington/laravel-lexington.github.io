@@ -478,3 +478,18 @@ body {
 #next-meetup a.location {
     color: #fff;
 }
+
+.bg-white { background: #fff; color: #333; padding: 20px; }
+    .bg-white h1,
+    .bg-white h2,
+    .bg-white h3 {
+        color: #444;
+    }
+
+body.bg-primary .navbar {
+    background: #fff;
+    border-color: rgba(34,34,34,.05);
+}
+    body.bg-primary .navbar a,
+    body.bg-primary .navbar a.navbar-brand,
+    body.bg-primary .navbar a.navbar-brand:hover { color: #0033a0;}
